@@ -40,7 +40,6 @@ E.F. Codd, "A Relational Model of Data for Large Shared Data Banks"
 - 관계형 데이터베이스가 아닌 나머지
 - 그래프 디비, 도큐먼트 디비, KV Store
 - MongoDB, Redis, DyanmoDB, neo4j, Casandra, HBASE, ...
-- 
 
 ---
 <!-- paœge_number: true -->
@@ -49,7 +48,8 @@ E.F. Codd, "A Relational Model of Data for Large Shared Data Banks"
 - Consistency, Availability, Partition Tolerence
 ## ACID
 - Atomicity, Consistency, Isolation, Durability
-## 수평 확장 VS 수직 확장 
+## 확장성
+- 수평 확장 VS 수직 확장 
 
 ---
 <!-- paœge_number: true -->
@@ -81,7 +81,7 @@ https://www.mongodb.com/
 
 ### 단점 
 - 조인에 부적합
-- 이전 버전의 쓰기 성능에 문제가 있음
+- 이전 버전의 경우 쓰기 성능에 문제가 있음
 
 ---
 <!-- paœge_number: true -->
@@ -106,3 +106,4 @@ https://www.mongodb.com/
 ## Hadoop Eco System 
  - HBASE, Spark, ...
 ## Cassandra
+## Elastic Search 
