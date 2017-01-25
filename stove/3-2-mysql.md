@@ -11,10 +11,12 @@ Hoyoung Jung <br>
 ---
 # 실습 준비 
 - AWS - ubuntu16.04 - mysql 설치 
+- root password를 꼭 넣자! 
 ```
 $ sudo apt install mysql-server
 $ sudo service mysql start
 $ sudo update-rc.d mysql defaults
+$ mysql -u root -p
 ```
 
 ---
@@ -48,10 +50,10 @@ default-character-set = utf8
 $ cd /etc/mysql
 $ grep -r 'bind'
 # bind-adress=127.0.0.1 내용 주석처리 
-$ sevice mysql restart
+$ sudo sevice mysql restart
 ```
 # 재부팅시 mysqld 자동 실행
-```
+```bash
 $ sudo update-rc.d mysql defaults
 # sudo update-rc.d mysql remove
 ```
@@ -59,9 +61,10 @@ $ sudo update-rc.d mysql defaults
 ---
 # 데이터베이스 및 일반 사용자 생성 
 ```sql
-CREATE DATABASE honuxdb;
-CREATE USER 'honux'@'%' IDENTIFIED BY '9a55w0rd';
-GRANT ALL ON honuxdb.* TO 'honux'@'%';
+CREATE DATABASE mydb;
+--- 아이디 및 패스워드 설정 
+CREATE USER 'honux'@'%' IDENTIFIED BY 'mypassword';
+GRANT ALL ON mydb.* TO 'honux'@'%';
 FLUSH PRIVILEGES;
 ```
 ---
