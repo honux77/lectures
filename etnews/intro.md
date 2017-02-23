@@ -48,7 +48,7 @@
 
 ---
 # 아마존 무인 드론
-![](images/drong.png)
+![](images/drone.png)
 
 ---
 # 아마존 무인 드론
