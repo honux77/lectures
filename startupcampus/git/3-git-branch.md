@@ -1,14 +1,12 @@
-![30%](images/slogo.png) ![30%](images/stove.png) 
+<!-- page_number: true -->
+# ![30%](images/img_white.png) 
 # Learn Git Basic 2
 <p align='center'>
 CodeSquad Master <br>
-Hoyoung Jung <br>
+Hoyoung Jung
 </p>
 
-<p align='right'><img src='images/logo.png' width = '15%'> </p>
-
 ---
-<!-- page_number: true -->
 # Branch
 여러 커밋을 트리 형태로 관리하고 이름 붙여줌 
 git이 가진 강력한 기능: 브랜치 및 워크플로우 관리
@@ -24,7 +22,6 @@ $ git branch
 $ git branch -r
 ```
 ---
-<!-- page_number: true -->
 # Origin
 오리진이란 기본으로 정해지는 원격 저장소 이름, 바꿀 수 있다.
 다른 원격 저장소를 다른 이름으로 추가할 수도 있다! 
@@ -32,10 +29,9 @@ $ git branch -r
 # Master
 가장 기본이 되는 브랜치 
 실제 서비스 운영시에는 보통 가장 최근의 실배포 내용만 적용된
-:poop: 마스터 브랜치에서는 작업을 하지 않는다! 
+**:poop: 마스터 브랜치에서는 작업을 하지 않는 게 좋다.**
 
 ---
-<!-- page_number: true -->
 # checkout 
 현재 작업 디렉토리를 커밋 또는 브랜치로 바꿀 때 사용 
 ```
@@ -47,14 +43,12 @@ $ git checkout ab0d4c
 $ git checkout origin/feature_login -b feature_login
 ```
 ---
-<!-- page_number: true -->
 # 브랜치 삭제 
 ```
 $ git branch -d 브랜치이름 
 ```
 
 ---
-<!-- page_number: true -->
 # 브랜치 원격 저장소에 반영하기
 ```
 $ git push #현재 브랜치를 origin에 반영 
@@ -110,7 +104,6 @@ cherry-pick
 ```
 나중에 배우면 됩니다. 
 
-
 ---
 
 # 참고자료 
@@ -119,10 +112,8 @@ cherry-pick
 2. https://backlogtool.com/git-guide/kr/stepup/stepup1_1.html 
 3. http://danielkummer.github.io/git-flow-cheatsheet/index.ko_KR.html 
 
----
-# Thanks! :v:
-```
-Today's Emoji - :v: 
-```
-![40%](https://octodex.github.com/images/kimonotocat.png)
+
+
+
+
 
