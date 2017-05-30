@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+</head>
+<body>
+    <h1>헬로우 플래닛</h1>
+    <div>
+    {%for memo in memos%}
+    {{memo.name}}, {{memo.text}}, {{memo.published_date}}<br>
+    {%endfor%}
+  </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+[
+  {
+    "MetricName": "honux",
+    "Timestamp": "Monday, April 17, 2017 8:48:20 PM",
+    "Value": 70
+  },
+  {
+    "MetricName": "honux",
+    "Timestamp": "Monday, April 17, 2017 9:28:20 PM",
+    "Value": 20
+  },
+  {
+    "MetricName": "honux",
+    "Timestamp": "Monday, April 17, 2017 10:28:20 PM",
+    "Value": 72
+  },
+  {
+    "MetricName": "honux",
+    "Timestamp": "Monday, April 17, 2017 11:28:20 PM",
+    "Value": 68
+  },
+  {
+    "MetricName": "honux",
+    "Timestamp": "Monday, April 17, 2017 11:48:20 PM",
+    "Value": 90
+  }
+]

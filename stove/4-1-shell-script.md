@@ -1,12 +1,10 @@
 <!-- page_number: true -->
-![30%](images/slogo.png) ![30%](images/stove.png) 
-# Shell Script Basic 
-<p align='center'>
-CodeSquad Master <br>
-Hoyoung Jung <br>
-</p>
 
-<p align='right'><img src='images/logo.png' width = '15%'> </p>
+![](images/img_blue.img)
+# Shell Script Basic 
+
+CodeSquad Master 
+Hoyoung Jung 
 
 ---
 # 팁: 하루 10초 나를 바꾸기 프로젝트 

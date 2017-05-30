@@ -1,15 +1,17 @@
 #!/bin/zsh
 
 FILE=1-1.md
-if [ $# -eq 2 ]; then 
-	DIRNAME=$2
-	FILE=$1
+if [ $# -ne 1 ]; then 
+	echo "Usage: $0 foldername"
+	exit 1
 else
-	num=($(ls | grep week | sort -r | head -1 | grep -o '[0-9]'))
-	DIRNAME=week$(expr $num + 1)
+	DIRNAME=$1
+fi
+
+if [ -e $1 ]; then
+	echo "$1 exist"
+	exit 1
 fi
 
 cp -a template $DIRNAME
-mv $DIRNAME/sample.md $DIRNAME/$FILE
-
 echo "Done"

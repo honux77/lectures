@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "honux-proj",
+  "private_key_id": "93031125696c8f3073978013e9a87c60f7b43a97",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDEkg9n+dMv8EGw\nm0IJ4lAIUr4dxF6OGkU9Wil/yuSLQYcM0J5NohhmE1FmAMjVhSSaW1J2ncgbwgdA\npYC+peeV+q9rkLrvEaCagc+zRoxzD61F899koDAnq+lIlsrdZpGCi72djpN1QnB4\nV3A+ze9VUQbRtrIy64AHKsmVAFpGp4CUOFfET4nndxslV0lksmKK1Wb0EgRFmiX9\nRcW98IygcY+9IPNxgDp9uA0OF9j/pEnTmFvEBqTbNtqvL3XuvHoX3n5eEQQtSAcr\nHdYGejPMXoseKhLV8JA2jDHVa7Ivpv17rB+WN/1EicrOfs2R05r3Lcsd2EVZNTsq\nE9UvTBXzAgMBAAECggEAO73gbMtiwfkVHeWx5msfw8fR/B4IVsvpK0JRxoMVfrVF\npEFrO1D+dVd9r7ChWTOD8l267E372WPY7G7geBDYF57+3YQ5LBuBYjP9uhDA8t9a\n3B3IUT7WI9h9qBAcS7m2k6SA1nfUnRi6MfjxJkVUbeuYVPhfpFYqrQL2DRD0XvBU\nOi37QUT1VEOohTOcYYNaRLu4hc0pKT6ZDkug75E73SsNe22ShcvP6DEXX2b6SvW6\nVV6vsWTqUr/hI1M6kUH2i8i5cnGl1GmA9PR0+aN9pmXnJ/N2gpjkLfkGF9b8Ouul\n2qotpYpbAQ/i1Pq/Gr/xq7Sya25/ajwq4GLItcdAUQKBgQD8PVhsZsX6YbL0eOd1\nkFCKbPY5sdiimfRMxk8wDIgotFsW7Tn/JKrmy1iE8H8OS2MWspGqC5mQhc4WProE\nLs8VRIEATiVmHtkPC7GrhyaFw8n1ovpyIhA64PE5oiVY/8cn7psqOThJSL/eLMof\noqiAkf8wuT5OOwX9SsY2U4xdJQKBgQDHgEH3jzKKSeK6+45sGArO/XuuR7qq0qVh\nxqXG4LQZmk6hPZLSOQ/CVS2kpGrId/MXEgBHqK/DSfEpXm9ALvfBcgc8Kgx3Izza\nETcIqvf43QP4mmJqaX4aYX3RmvtxJUkJUVOVM/kW+4UwgiuxvsBrmmMx2PU7+SX/\nyWGAnyLXNwKBgQCCfnYtdqn70+mSIq6UGrogMyjbRk/uJznFMl8rW4BhlpT9cnMr\ntVuZFSBRfl4tFgFIb89+KowiwaaRyZfQrCrENPGMJ+GfSFxBNWqQc9YRI+5q3ws0\nWr0MyOzjRSiPN5xf40hw+rNM7o8csQ1Meok0ItPj8CH0tQJvPOz4lBas5QKBgFEL\nycDIa7/CRFmx2CoRmlJ8p8IlYbAD4yvVh4NDxeagyVC3su20QLKx59j68mZ+VEML\nDRIPdVfgshgcRRXN/tiXelj2vBmqNw5f7/uVeSegofxcu55/PLt636JHU96jRwiC\nAXKbqpWrmHAccaPD2mfcUG/vs7CphsZjCTk3bPABAoGAHUjoMmLqPIDTrZmDjJo4\nwwXLx8KS/9NxLKDS1jCenm9X2JZayat8d0hEp8vjlW+Q/P6KeIPIE+pPOWiDWOAw\n+0wFo046OblJ3YEJ0xr4GIFLJ6uWMemr+UKg1464LSz87OZOEuzhguAvpYSJf+Ww\nWZ80RYamoq1hEkrKo4vdCMs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "honux-docs@honux-proj.iam.gserviceaccount.com",
+  "client_id": "107986972481565384861",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/honux-docs%40honux-proj.iam.gserviceaccount.com"
+}

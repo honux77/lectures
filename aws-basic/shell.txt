@@ -1,0 +1,11 @@
+1 ec2 »ý¼º
+
+user data 
+
+#!/bin/bash
+curl -L https://us-west-2-aws-training.s3.amazonaws.com/awsu-spl/spl03-working-elb/static/bootstrap-elb.sh | sh
+
+#!/bin/bash
+yum -y install httpd php
+chkconfig httpd on
+/etc/init.d/httpd start
